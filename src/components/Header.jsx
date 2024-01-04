@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <Navbar collapseOnSelect expand='md' variant="light" className="py-2" fixed="top">
-      <Container fluid='xs' className="bg-light shadow container-md rounded-4 border fw-bold">
+      <Container fluid='xs' className="bg-light shadow container-md rounded-4 border fw-bold py-2 px-3">
         <NavbarBrand>
           <Image src={ logo } fluid width={ 50 } height={ 50 } />{' '}
           <span className="d-none d-lg-inline text-gradient fw-bolder text-uppercase">apus industries limited</span>
