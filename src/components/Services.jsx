@@ -10,7 +10,7 @@ import img4 from '../assets/test.png'
 
 const Services = () => {
   return (
-    <div className='bg-light py-5'>
+    <div id='services' className='bg-light py-5'>
       <p className="h1 my-5 text-center fw-bold text-capitalize">services we offer</p>
       <Swiper
         slidesPerView={1}

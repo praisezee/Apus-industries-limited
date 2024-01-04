@@ -5,7 +5,7 @@ import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const Trust = () => {
   return (
-    <div className="h-screen d-flex justify-content-center align-items-center">
+    <div className="h-screen d-flex justify-content-center align-items-center" id="about">
       <Container>
         <Row>
           <Col xs={ 12 } md={ 6 } lg={8} className="mx-auto my-auto">

@@ -1,4 +1,5 @@
 import Build from "../components/Build";
+import Contact from "../components/Contact";
 import Design from "../components/Design";
 import Hero from "../components/Hero";
 import Partner from "../components/Partner";
@@ -15,7 +16,8 @@ const Home = () => {
       <Partner />
       <Build />
       <Design />
-      <Stack/>
+      <Stack />
+      <Contact/>
     </>
   )
 }

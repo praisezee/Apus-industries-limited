@@ -11,7 +11,7 @@ import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const Design = () => {
   return (
-    <div className="my-5 bg-light py-5">
+    <div className="my-5 bg-light py-5" id="design">
       <div className="w-10 hr mx-auto" />
       <p className="text-center h4 my-4">Our design and  <br /> <span className="fw-bold">development approach</span></p>
       <Container>

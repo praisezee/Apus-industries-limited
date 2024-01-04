@@ -25,7 +25,7 @@ const Stack = () =>
     solidity,hardhat,web3
   ]
   return (
-    <div className="vh-100 d-flex justify-content-center align-items-center">
+    <div className="vh-100 d-flex justify-content-center align-items-center" id="stacks">
       <Container>
         <div className="w-10 hr mx-auto" />
         <p className="text-center h4 my-4">Our<br /> <span className="fw-bold">Texh Stack</span></p>

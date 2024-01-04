@@ -16,6 +16,8 @@ import react from './react.png';
 import solidity from './solidity.png';
 import vite from './vite.png';
 import web3 from './web3.png';
-import express from './express.png'
+import express from './express.png';
+import logo from './Asset 8.png'
+import contact from './contact.png'
 
-export {aws,azure,cloud,flutter,hardhat,laravel,mongoDb,mysql,nodejs,nestjs,nextjs,php,postgres,reactNative,react,solidity,vite,web3,express}
+export {aws,azure,cloud,flutter,hardhat,laravel,mongoDb,mysql,nodejs,nestjs,nextjs,php,postgres,reactNative,react,solidity,vite,web3,express,logo,contact}

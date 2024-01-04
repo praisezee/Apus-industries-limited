@@ -1,6 +1,6 @@
 import { Container, Image, Nav, Navbar, NavbarBrand, NavbarCollapse, NavbarToggle, NavLink } from "react-bootstrap";
 import logo from '../assets/Asset 8.png'
-import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 
 
 const Header = () => {
@@ -14,20 +14,22 @@ const Header = () => {
         <NavbarToggle aria-controls="responsive-navbar-nav" />
         <NavbarCollapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
-            <NavLink>
-              <Link className="nav-link" to='/about'>About Us</Link>
+            <NavLink eventKey={1}>
+              <Link className="nav-link" to='/#about'>About Us</Link>
             </NavLink>
-            <NavLink>
-              <Link className="nav-link" to='/about'>Services</Link>
+            <NavLink eventKey={2}>
+              <Link className="nav-link" to='/#services'>Services</Link>
             </NavLink>
-            <NavLink>
-              <Link className="nav-link" to='/about'>How it works</Link>
+            <NavLink eventKey={3}>
+              <Link className="nav-link" to='/#design'>How it works</Link>
             </NavLink>
-            <NavLink>
-              <Link className="nav-link" to='/about'>Hire</Link>
+            <NavLink eventKey={4}>
+              <Link className="nav-link" to='/#stacks'>Our stacks</Link>
             </NavLink>
           </Nav>
-          <Link className="btn btn-grad fw-bolder ms-auto">Contact Us</Link>
+          <NavLink eventKey={5}>
+            <Link to='/#contact' className="btn btn-grad fw-bolder ms-auto">Contact Us</Link>
+          </NavLink>
         </NavbarCollapse>
       </Container>
     </Navbar>
