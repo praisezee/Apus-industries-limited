@@ -12,7 +12,7 @@ const Contact = () =>
   const [ phoneNumber, setPhoneNumber ] = useState( '' )
   const [ message, setMessage ] = useState( '' )
   const [ loading, setLoading ] = useState( false)
-  
+
   
 
 
@@ -37,22 +37,22 @@ const Contact = () =>
             <Row>
               <div className="w-10 hr" />
               <p className="h4 my-4">Contact <span className="fw-bold">Form</span></p>
-              <Col xs={ 6 }>
+              <Col xs={ 12 } md={6}>
                 <FloatingLabel label='Firstname' className="my-1">
                   <FormControl value={firstname} onChange={(e)=>setFirstname(e.target.value)} placeholder="Enter your full name"/>
                 </FloatingLabel>
               </Col>
-              <Col xs={ 6 }>
+              <Col xs={ 12 } md={6}>
                 <FloatingLabel label='Lastname' className="my-1">
                   <FormControl value={lastname} onChange={(e)=>setLasttname(e.target.value)} placeholder="Enter your full name"/>
                 </FloatingLabel>
               </Col>
-              <Col xs={ 6 }>
+              <Col xs={ 12 } md={6}>
                 <FloatingLabel label='Email' className="my-1">
                   <FormControl value={email} onChange={(e)=>setEmail(e.target.value)} placeholder="Enter your email"/>
                 </FloatingLabel>
               </Col>
-              <Col xs={ 6 }>
+              <Col xs={ 12 } md={6}>
                 <FloatingLabel label='Phone number' className="my-1">
                   <FormControl value={phoneNumber} onChange={(e)=>setPhoneNumber(e.target.value)} placeholder="Enter your email"/>
                 </FloatingLabel>
