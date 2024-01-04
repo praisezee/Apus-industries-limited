@@ -28,6 +28,10 @@
   height: 75dvh !important;
 }
 
+.fs-small{
+  font-size: 10px;
+}
+
 .h-screen{
   min-height: 100dvh !important;
 }

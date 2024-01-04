@@ -3,6 +3,7 @@ import Design from "../components/Design";
 import Hero from "../components/Hero";
 import Partner from "../components/Partner";
 import Services from "../components/Services";
+import Stack from "../components/Stack";
 import Trust from "../components/Trust";
 
 const Home = () => {
@@ -13,7 +14,8 @@ const Home = () => {
       <Trust />
       <Partner />
       <Build />
-      <Design/>
+      <Design />
+      <Stack/>
     </>
   )
 }

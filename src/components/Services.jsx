@@ -13,7 +13,7 @@ const Services = () => {
     <div className='bg-light py-5'>
       <p className="h1 my-5 text-center fw-bold text-capitalize">services we offer</p>
       <Swiper
-        slidesPerView={2}
+        slidesPerView={1}
         spaceBetween={30}
         centeredSlides={true}
         pagination={{
@@ -25,7 +25,7 @@ const Services = () => {
         } }
         navigation={true}
         modules={[Autoplay, Pagination]}
-        className="mySwiper my-5"
+        className="mySwiper my-5 px-4"
       >
         <SwiperSlide>
           <Card className='border-gradient'>
