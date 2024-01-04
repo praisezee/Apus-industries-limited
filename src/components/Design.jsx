@@ -16,7 +16,7 @@ const Design = () => {
       <p className="text-center h4 my-4">Our design and  <br /> <span className="fw-bold">development approach</span></p>
       <Container>
         <Row className="g-3">
-          <Col xs={ 6 } className="p-1 my-auto">
+          <Col xs={ 12 } md={6} className="p-1 my-auto">
             <AnimationOnScroll animateIn="expand-out">
               <div className="bg-white d-flex p-2 rounded-3 shadow-sm">
                 <Image width={ 40 } height={ 40 } src={ ui } className="border rounded me-3"/>
@@ -27,7 +27,7 @@ const Design = () => {
               </div>
             </AnimationOnScroll>
           </Col>
-          <Col xs={ 6 } className="p-1 my-auto">
+          <Col xs={ 12 } md={6} className="p-1 my-auto">
             <AnimationOnScroll animateIn="expand-out">
               <div className="bg-white d-flex p-2 rounded-3 shadow-sm">
                 <Image width={ 40 } height={ 40 } src={ code } className="border rounded me-3"/>
@@ -38,7 +38,7 @@ const Design = () => {
               </div>
             </AnimationOnScroll>
           </Col>
-          <Col xs={ 6 } className="p-1 my-auto">
+          <Col xs={ 12 } md={6} className="p-1 my-auto">
             <AnimationOnScroll animateIn="expand-out">
               <div className="bg-white d-flex p-2 rounded-3 shadow-sm">
                 <Image width={ 40 } height={ 40 } src={ expertise } className="border rounded me-3"/>
@@ -49,7 +49,7 @@ const Design = () => {
               </div>
             </AnimationOnScroll>
           </Col>
-          <Col xs={ 6 } className="p-1 my-auto">
+          <Col xs={ 12 } md={6} className="p-1 my-auto">
             <AnimationOnScroll animateIn="expand-out">
               <div className="bg-white d-flex p-2 rounded-3 shadow-sm">
               <Image width={ 40 } height={ 40 } src={ secure } className="border rounded me-3"/>
@@ -60,7 +60,7 @@ const Design = () => {
             </div>
             </AnimationOnScroll>
           </Col>
-          <Col xs={ 6 } className="p-1 my-auto">
+          <Col xs={ 12 } md={6} className="p-1 my-auto">
             <AnimationOnScroll animateIn="expand-out">
               <div className="bg-white d-flex p-2 rounded-3 shadow-sm">
               <Image width={ 40 } height={ 40 } src={ check } className="border rounded me-3"/>
@@ -71,7 +71,7 @@ const Design = () => {
             </div>
             </AnimationOnScroll>
           </Col>
-          <Col xs={ 6 } className="p-1 my-auto">
+          <Col xs={ 12 } md={6} className="p-1 my-auto">
             <AnimationOnScroll animateIn="expand-out">
               <div className="bg-white d-flex p-2 rounded-3 shadow-sm">
               <Image width={ 40 } height={ 40 } src={ quality } className="border rounded me-3"/>
