@@ -57,7 +57,7 @@ const Footer = () =>
           </Col>
         </Row>
       </Container>
-        <p className="fw-bold text-small bg-light text-center py-3">&copy; {date.getFullYear()} Copyright <span className="text-gradient text-uppercase">APUS INDUSTRIES LIMITED</span>. All rights reserved</p>
+        <p className="fw-bold text-small bg-light text-center py-3">&copy; {date.getFullYear()} Copyright <span className="text-gradient text-uppercase">APUS INDUSTRIES LIMITED</span><br/> All rights reserved</p>
     </div>
   )
 }

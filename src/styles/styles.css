@@ -1,11 +1,11 @@
 .text-gradient{
-  background: -webkit-linear-gradient(#df7b0a, #0ca53296);
+  background: -webkit-linear-gradient( #ff8e00, #06ff00);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .btn-grad {
-  background-image: linear-gradient(to right, #0ca53296 0%, #df7b0a  51%, #0ca53296  100%);
+  background-image: linear-gradient(to right, #06ff00 0%,  #ff8e00  51%, #06ff00  100%);
   margin: 10px;
   padding: 15px 45px;
   text-align: center;
@@ -38,7 +38,7 @@
 
 .border-gradient{
   border-style: solid;
-  border-image: linear-gradient(to bottom, #df7b0a, #0ca53296) 1 100% !important;
+  border-image: linear-gradient(to bottom,  #ff8e00, #06ff00) 1 100% !important;
 }
 
 .w-10{
@@ -46,9 +46,9 @@
 }
 
 .hr{
-  background: -webkit-linear-gradient(#df7b0a, #0ca53296);
+  background: -webkit-linear-gradient( #ff8e00, #06ff00);
   background-clip: content-box;
-  color: -webkit-linear-gradient(#df7b0a, #0ca53296);
+  color: -webkit-linear-gradient( #ff8e00, #06ff00);
   height: 3px;
 }
 
