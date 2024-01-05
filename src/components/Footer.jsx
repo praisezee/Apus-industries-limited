@@ -12,7 +12,7 @@ const Footer = () =>
     <div className="pt-4">
       <hr className="my-4"/>
       <Container className="text-center">
-        <Row>
+        <Row className="g-4">
           <Col xs={ 6 } md={ 6 } lg={ 4 }>
             <Image src={logo} width={ 25 } height={ 20 } />{' '}
             <span className="text-gradient fw-bolder text-uppercase">apus industries limited</span>
@@ -24,7 +24,7 @@ const Footer = () =>
             <Link to='/#services' className="nav-link text-muted fst-italic">Services</Link>
             <Link to='/#stacks' className="nav-link text-muted fst-italic">Our Stacks</Link>
           </Col>
-          <Col xs={ 6 } lg={ 4 }>
+          <Col xs={ 6 } lg={ 4 } className="mx-auto">
             <p className="fw-bold">Contact Us</p>
             <p className="text-muted fst-italic">
               Moniya, Ibadan, Nigeria
